@@ -1,0 +1,100 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(6);
+  grid-template-rows: repeat(7);
+  gap: 10px;
+  text-align: center;
+  height: 400px;
+  width: 800px;
+  margin: auto;
+}
+.Caixa1  {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: #CA7E88;
+}
+.Caixa2  {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #4CBEE0;
+}
+.Caixa3  {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-color: #DDA798;
+}
+.Caixa4  {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  background-color: #7770C0;
+}
+.Caixa5  {
+  grid-column: 5/6;
+  grid-row: 1/2;
+  background-color: #4A95DC;
+}
+.Caixa6  {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: #587EDF;
+}
+.Caixa7  {
+  grid-column: 2/4;
+  grid-row: 2/4;
+  background-color: #D86A75;
+}
+.Caixa8  {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  background-color: #66C25B;
+}
+.Caixa9  {
+  grid-column: 4/6;
+  grid-row: 3/5;
+  background-color: #B66971;
+}
+.Caixa10  {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background-color: #4B78DF;
+}
+.Caixa11  {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  background-color: #3FB5D7;
+}
+.Caixa12  {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  background-color: #D79D8D;
+}
+.Caixa13 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  background-color:  #3B90E3;
+}
+.Caixa14  {
+  grid-column: 2/3;
+  grid-row: 5/6;
+  background-color: #DD8970;
+}
+.Caixa15 {
+  grid-column: 3/4;
+  grid-row: 5/6;
+  background-color: #62C25A;
+}
+.Caixa16 {
+  grid-column: 4/5;
+  grid-row: 5/6;
+  background-color: #48B0AC;
+}
+.Caixa17  {
+  grid-column: 5/6;
+  grid-row: 5/6;
+  background-color: #736ABB;
+}
+.Caixa18{
+    grid-column: 1/2;
+    grid-row: 6/7;
+    background-color: #DD8970;
+}
